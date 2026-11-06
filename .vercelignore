@@ -1,0 +1,6 @@
+docs
+scripts
+.claude
+dist
+node_modules
+*.log
