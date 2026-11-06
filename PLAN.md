@@ -137,6 +137,7 @@ Each phase ends runnable and is reviewed before the next starts.
 
 ### Phase 6: Ship ✅
 - **Live:** https://3danimatedsite.vercel.app (Vercel project `3d_animated_site`, static Vite build).
+- **Repo:** https://github.com/DevVaradPatil/3d_animated_site (public). It is linked to Vercel, so pushes to `main` auto-deploy to production.
 - `vercel.json`:
   - Hashed `/assets` cached for a year as `immutable`, `/fonts` for a week; HTML revalidates.
   - `nosniff`, `Referrer-Policy` and `Permissions-Policy` headers.

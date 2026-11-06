@@ -1,5 +1,7 @@
 # LITHOS — Maison de Pierres
 
+**Live: https://3danimatedsite.vercel.app**
+
 A real-time 3D landing page for a (fictional) haute-joaillerie house. Seven gemstones, each cut, lit and
 ray-traced live in WebGL, with no image or model files. Scroll through the collection, then follow a diamond
 from rough crystal to polished stone and through the four Cs.
@@ -35,6 +37,10 @@ ScrambleText, ScrollTrigger), Motion, Lenis.
 - `node scripts/og.mjs`: regenerates `public/og.jpg` (social card) and `public/apple-touch-icon.png` from the live scene.
 
 Both take `URL=` if the dev server isn't on `:5173`.
+
+## Deploy
+
+The Vercel project is linked to this repo: every push to `main` deploys to production, and other branches and PRs get preview deployments.
 
 ## Notes
 
